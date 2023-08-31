@@ -34,7 +34,15 @@
 
 .heroContainer__title {
   color: #000000b3;
-  font-size: 56px;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left; 
+  font-family: 'Sprite Graffiti', sans-serif;
+}
+
+.heroContainer__subTitle {
+  color: #000000b3;
+  font-size: 32px;
   font-weight: bold;
   text-align: left; 
   font-family: 'Sprite Graffiti', sans-serif;
@@ -66,8 +74,13 @@
 
 @media screen and (max-width: 600px) {
 
+  .heroContainer__imageContainer {
+    margin-top: 20px;
+  }
+
   .heroContainer__textContainer {
     padding-left: 50px;
+    margin-top: 0px;
   }
 
   .heroContainer__button {

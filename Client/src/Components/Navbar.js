@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import styles from '../Styles/Navbar.module.css';
-import LogoImg from "../Images/Logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbar__logoContainer}>
-        <img src={LogoImg} alt="Logo" className={styles.navbar__logo} />
+        <h1>Upsouth</h1>
       </div>
       <div className={`${styles.navbar__menuIcon} ${isOpen && styles.navbar__menuIcon_active}`} onClick={handleClick}>
         <i className={`fas ${isOpen ? "fa-times" : "fa-bars"}`}></i>

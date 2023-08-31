@@ -3,8 +3,7 @@ import axios from 'axios';
 import ModalComponent from '../Components/ModalComponent.js';
 import styles from '../Styles/NesiaChatBot.module.css';
 
-import { SiProbot, SiChatbot } from 'react-icons/si';
-import { FaRegUser } from 'react-icons/fa';
+import { SiChatbot } from 'react-icons/si';
 import { MdDoubleArrow } from 'react-icons/md';
 
 const NesiaChatBot = () => {
@@ -77,10 +76,7 @@ const NesiaChatBot = () => {
     if (message.contentType === 'UserInput') {
       return (
         <div className={styles['nesia-chat-bot__user-input-message']} key={index}>
-          {/* <button> */}
-          <FaRegUser className={styles['nesia-chat-bot__user-icon']} />
-          {/* </button> */}
-          <div className={styles['nesia-chat-bot__user-message-content']}>{message.content}</div>
+            <div className={styles['nesia-chat-bot__user-message-content']}>{message.content}</div>
         </div>
       );
     } else {
@@ -100,9 +96,6 @@ const NesiaChatBot = () => {
               </div>
             ) : (
               <>
-                <button className={styles['nesia-chat-bot__icon']}>
-                  <SiProbot />
-                </button>
                 <div className={styles['nesia-chat-bot__message-content']}>
                   <div>{message.content}</div>
                 </div>
@@ -138,7 +131,7 @@ const NesiaChatBot = () => {
                 value={userInput}
                 onChange={handleUserInput}
                 onKeyPress={handleKeyPress}
-                placeholder="Ask Nesia anything..."
+                placeholder="Pātai mai, Ask Nesia anything..."
               />
               <button
                 className={styles['nesia-chat-bot__icon']}

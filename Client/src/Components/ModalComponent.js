@@ -8,24 +8,38 @@ const CustomStyles = {
   content: {
     position: 'fixed',
     bottom: '20px',
-    left: '420px',
-    width: '900px',
-    height: '700px',
-    padding: '0', 
+    left: '50%',
+    transform: 'translateX(-50%)',
+    width: '90%', 
+    maxWidth: '900px', 
+    height: '90%',
+    padding: '0',
     overflow: 'auto',
     borderRadius: '4px',
     outline: 'none',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    marginTop: 0, 
     backgroundColor: '#E8E8E8',
-    zIndex: 10000, 
+    zIndex: 10000,
   },
   overlay: {
-    background: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))",
+    background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))',
     zIndex: 9999,
   },
 };
+
+const mediaQuery = '@media (max-width: 600px)';
+const mediaStyles = {
+  width: '90%', 
+};
+
+CustomStyles.content = {
+  ...CustomStyles.content,
+  ...mediaStyles,
+  [mediaQuery]: {
+    ...CustomStyles.content[mediaQuery],
+    ...mediaStyles,
+  },
+};
+
 
 Modal.setAppElement('#root');
 
@@ -40,7 +54,7 @@ const ModalComponent = ({ isOpen, closeModal, children }) => {
       <div className={styles.modalComponent__modalHeader}>
         <div className={styles.modalComponent__titleContainer}>
           <SiProbot className={styles.modalComponent__robotIcon} />
-          <h2 className={styles.modalComponent__modalTitle}>Nesia the chatbot</h2>
+          <h2 className={styles.modalComponent__modalTitle}>Nesia te kaiāwhina</h2>
         </div>
         <button className={styles.modalComponent__closeBtn} onClick={closeModal}>
           X
@@ -61,7 +75,5 @@ ModalComponent.propTypes = {
 };
 
 export default ModalComponent;
-
-
 
 

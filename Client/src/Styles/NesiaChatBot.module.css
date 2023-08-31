@@ -51,14 +51,6 @@
   flex-direction: column;
 }
 
-.nesia-chat-bot__user-icon {
-  font-size: 20px;
-  margin-bottom: 5px; 
-  border-radius: 5px;
-  padding: 5px;
-  background-color: #004aad;
-}
-
 .nesia-chat-bot__user-icon:hover {
   background-color: #000000b3;
   border: 1px solid #000000b3;
@@ -112,6 +104,9 @@
   background-color: #00bf63;
   border: 1px solid #00bf63;
   color: white;
+  /* position: fixed; */
+  bottom: 20px;
+  z-index: 999;
 }
 
 .nesia-chat-bot__open-button:hover {
@@ -120,47 +115,13 @@
   cursor: pointer;
 }
 
-/* media resp */
 @media screen and (max-width: 600px) {
-  .nesia-chat-bot__container {
-    bottom: 10px;
-    right: 10px;
-  }
-
   .nesia-chat-bot__response-container {
-    height: 300px;
-  }
-
-  .nesia-chat-bot__response,
-  .nesia-chat-bot__user-response,
-  .nesia-chat-bot__user-input-message {
-    max-width: 100%;
-  }
-
-  .nesia-chat-bot__input-container {
-    flex-direction: column;
-    align-items: stretch;
-    margin-top: 20px;
-  }
-
-  .nesia-chat-bot__input {
-    margin: 10px 0;
-  }
-
-  .nesia-chat-bot__icon {
-    margin-right: 0;
-  }
-
-  .nesia-chat-bot__modal-title {
-    font-size: 16px;
+    height: 485px;
   }
 
   .nesia-chat-bot__open-button {
     font-size: 32px;
-    padding: 5px;
   }
-
-  .nesia-chat-bot__open-button {
-    display: inline-block;
-  }
+  
 }

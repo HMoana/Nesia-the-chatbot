@@ -2,7 +2,7 @@
 
 .navbar {
   background: #004aad;
-  padding: 20px;
+  padding: 10px 20px; /* Reduced top and bottom padding to 10px */
   display: flex;
   justify-content: space-between;
   font-family: 'Sprite Graffiti', sans-serif;
@@ -10,6 +10,10 @@
   font-size: 24px;
   position: relative;
   z-index: 99;
+}
+
+.navbar__logoContainer > h1 {
+  font-size: 32px;
 }
 
 .navbar__menuIcon {
@@ -29,10 +33,6 @@
 .navbar__menuIcon_active .fa-bars {
   transform: rotate(180deg);
   transition: all 0.2s ease-in-out;
-}
-
-.navbar__logo {
-  height: 50px;
 }
 
 .navbar__menuList {
@@ -86,10 +86,11 @@
 @media screen and (max-width: 600px) {
   .navbar__menuIcon {
     display: block;
+    margin-top: 30px; 
   }
   .navbar__menuList {
     flex-direction: column;
-    width: 93.27%;
+    width: 93.19%;
     position: absolute;
     background: #004aad;
     padding: 20px;
