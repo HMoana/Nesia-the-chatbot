@@ -45,6 +45,24 @@ _Client Dependencies:_
   npx create-react-app .
   ```
 
+- React Router Dom
+
+  ```sh
+  npm install react-router-dom
+  ```
+
+- React Icons
+
+  ```sh
+  npm install react-icons
+  ```
+
+- React Modal
+
+  ```sh
+  npm install react-modal
+  ```
+
 - Axios
 
   ```sh

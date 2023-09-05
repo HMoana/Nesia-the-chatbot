@@ -16,7 +16,7 @@ const FooterColumns = [
   {
     id: 2,
     headline: "Our Team",
-    links: ["Shared Responsibility", "About Us", "Contact", "Admin Login",],
+    links: ["Shared Responsibility", "Mō mātou | About Us", "Whakapā mai | Contact", "Admin Login",],
   },
 ];
 

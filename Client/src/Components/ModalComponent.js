@@ -12,7 +12,7 @@ const CustomStyles = {
     transform: 'translateX(-50%)',
     width: '90%', 
     maxWidth: '900px', 
-    height: '90%',
+    height: '85%',
     padding: '0',
     overflow: 'auto',
     borderRadius: '4px',

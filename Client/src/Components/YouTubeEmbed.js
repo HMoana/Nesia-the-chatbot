@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from '../Styles/YouTubeEmbed.module.css';
 
 const YouTubeEmbed = ({ videoId }) => {
   return (
-    <div className={styles["youtube-embed"]}>
+    <div>
        <iframe 
     width="500" 
     height="400" 

@@ -2,7 +2,7 @@
 
 .navbar {
   background: #004aad;
-  padding: 10px 20px; /* Reduced top and bottom padding to 10px */
+  padding: 10px 20px; 
   display: flex;
   justify-content: space-between;
   font-family: 'Sprite Graffiti', sans-serif;
