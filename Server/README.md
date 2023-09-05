@@ -62,6 +62,12 @@ _Server Dependencies:_
   npm install @aws-sdk/client-lex-runtime-v2
   ```
 
+- Jest
+
+  ```sh
+  npm install jest
+  ```
+
 ---
 
 ### **Installation:**

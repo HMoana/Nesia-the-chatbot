@@ -1,16 +1,16 @@
-const lexService = require('../Services/LexService'); 
+const lexService = require('../Services/LexService');
 
 const postChatbotMessage = async (req, res) => {
   const { userInput } = req.body;
 
   try {
-    const chatbotResponse = await lexService.sendChatbotMessage(userInput); // Use the lexService to send a request to the Lex runtime
+    const chatbotResponse = await lexService.sendChatbotMessage(userInput);
 
-    const customPayloadResponses = chatbotResponse.messages.filter(
+    const customPayloadResponses = chatbotResponse.messages && chatbotResponse.messages.filter(
       (message) => message.contentType === 'CustomPayload'
     );
 
-    const textResponses = chatbotResponse.messages.filter(
+    const textResponses = chatbotResponse.messages && chatbotResponse.messages.filter(
       (message) => message.contentType === 'PlainText'
     );
 
@@ -24,4 +24,3 @@ const postChatbotMessage = async (req, res) => {
 module.exports = {
   postChatbotMessage,
 };
-
