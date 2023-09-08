@@ -1,4 +1,5 @@
 .nesia-chat-bot__container {
+  border-radius: 15px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -15,15 +16,18 @@
 }
 
 .nesia-chat-bot__response {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   list-style: none;
   text-align: left;
   margin: 5px;
-  padding: 10px;
-  background-color: #00bf63;
-  color: white;
-  border-radius: 10px;
+  padding: 18px;
+  background-color: #ede4ff;
+  color: black;
+  border-radius: 5px;
   max-width: 70%;
   align-self: flex-end;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .nesia-chat-bot__user-response {
@@ -40,15 +44,25 @@
 }
 
 .nesia-chat-bot__user-input-message {
-  background-color: #004aad;
-  color: white;
-  border-radius: 10px;
-  padding: 5px;
+  background-color: #ffeadd;
+  color: black;
+  border-radius: 5px;
+  padding: 18px;
   max-width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin: 5px;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.nesia-chat-bot__user-icon {
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ffeadd;
 }
 
 .nesia-chat-bot__user-icon:hover {
@@ -61,11 +75,13 @@
   align-items: flex-end;
   margin-top: auto;
   padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .nesia-chat-bot__input {
   flex: 1;
-  border: #00bf63 1px solid;
+  border: #fd8d14 1px solid;
   background-color: #f2f2f2;
   color: #000000b3;
   border-radius: 5px;
@@ -75,9 +91,9 @@
 }
 
 .nesia-chat-bot__icon {
-  background-color: #00bf63;
+  background-color: #fd8d14;
   color: white;
-  border: 1px solid #00bf63;
+  border: 1px solid #ede4ff;
   border-radius: 5px;
   padding: 5px;
   font-size: 24px;
@@ -101,11 +117,9 @@
   font-size: 42px;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #00bf63;
-  border: 1px solid #00bf63;
+  background-color: #fd8d14;
+  border: 1px solid #fd8d14;
   color: white;
-  bottom: 20px;
-  z-index: 999;
 }
 
 .nesia-chat-bot__open-button:hover {
@@ -115,12 +129,46 @@
 }
 
 @media screen and (max-width: 600px) {
+  .nesia-chat-bot__container {
+    bottom: 10px;
+    right: 10px;
+  }
+  
   .nesia-chat-bot__response-container {
-    height: 485px;
+    height: 400px;
+  }
+
+  .nesia-chat-bot__response,
+  .nesia-chat-bot__user-response,
+  .nesia-chat-bot__user-input-message {
+    max-width: 100%;
+  }
+
+  .nesia-chat-bot__input-container {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 20px;
+  }
+
+  .nesia-chat-bot__input {
+    margin: 10px 0;
+    background-color: white;
+  }
+
+  .nesia-chat-bot__icon {
+    margin-right: 0;
+  }
+
+  .nesia-chat-bot__modal-title {
+    font-size: 16px;
   }
 
   .nesia-chat-bot__open-button {
-    font-size: 32px;
+    font-size: 26px;
+    padding: 5px;
   }
-  
+
+  .nesia-chat-bot__open-button {
+    display: inline-block;
+  }
 }

@@ -10,53 +10,58 @@
 
 .heroContainer__imageContainer {
   flex: 1;
+  max-width: 50%;
 }
 
 .heroContainer__ideaImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 80%; 
-  margin-left: 20px; 
+  border-radius: 5%; 
+  margin-left: 75px;
 }
 
 .heroContainer__textContainer {
   flex: 1;
   display: flex;
-  justify-content: flex-start; 
+  justify-content: center; 
   align-items: center; 
   margin-top: 200px;
+  max-width: 50%;
 }
 
 .heroContainer__content {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .heroContainer__title {
   color: #000000b3;
-  font-size: 64px;
+  font-size: 72px;
   font-weight: bold;
-  text-align: left; 
   font-family: 'Sprite Graffiti', sans-serif;
+  margin-bottom: 10px;
 }
 
 .heroContainer__subTitle {
   color: #000000b3;
-  font-size: 32px;
+  font-size: 42px;
   font-weight: bold;
-  text-align: left; 
   font-family: 'Sprite Graffiti', sans-serif;
+  margin-top: 10px;
 }
 
 .heroContainer__button {
   color: white;
-  background-color: #00bf63;
+  background-color: #fd8d14;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Sprite Graffiti', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   margin-bottom: 290px;
   transition: background-color 0.2s ease-in-out;
@@ -74,22 +79,39 @@
 
 @media screen and (max-width: 600px) {
 
+  .heroContainer {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .heroContainer__imageContainer,
+  .heroContainer__textContainer {
+    max-width: 400px;
+    width: 100%;
+  }
+
   .heroContainer__imageContainer {
     margin-top: 20px;
   }
 
+  .heroContainer__ideaImage {
+    margin-left: 0px;
+  }
+
   .heroContainer__textContainer {
-    padding-left: 50px;
     margin-top: 0px;
   }
 
   .heroContainer__button {
     font-size: 18px;
     padding: 5px 10px;
-    margin-bottom: 150px;
   }
 
   .heroContainer__title {
-    font-size: 44px;
+    font-size: 48px;
+  }
+
+  .heroContainer__subTitle {
+    font-size: 32px;
   }
 }

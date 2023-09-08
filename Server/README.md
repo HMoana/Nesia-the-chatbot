@@ -10,15 +10,21 @@ In this first development cycle of it's kind for the Upsouth platform. The devel
 
 We will be utilizing the vast services the AWS have to offer. In particular building the chatbot with Amazon Lex, integrating with AWS-SDK and an NodeJS Express API, and a customized User Interface created on a ReactJS frontend.
 
-<!-- 
+
 ### **Built with:**
 
-- [React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo-react&logoColor=026e00 "React")
-- [React-url](https://react.dev/ "Reacturl")
-- [Javascript](https://img.shields.io/badge/Javascript-20232A?style=for-the-badge&logo-javascript&logoColor=026e00 "Javascript")
-- [Javascript-url](https://www.javascript.com/ "Javascripturl")
-- [CSS](https://img.shields.io/badge/CSS-20232A?style=for-the-badge&logo-css&logoColor=026e00 "CSS")
-- [CSS-url](https://www.w3schools.com/css/ "CSSurl") -->
+- [NodeJS](https://img.shields.io/badge/NodeJS-20232A?style=for-the-badge&logo-nodejs&logoColor=026e00 "NodeJS")
+- [NodeJS-url](https://nodejs.org/en/docs "NodeJSurl")
+- [ExpressJS](https://img.shields.io/badge/ExpressJS-20232A?style=for-the-badge&logo-expressjs&logoColor=026e00 "ExpressJS")
+- [ExpressJS-url](https://expressjs.com/ "ExpressJSurl")
+- [Dotenv](https://img.shields.io/badge/Dotenv-20232A?style=for-the-badge&logo-dotenv&logoColor=026e00 "Dotenv")
+- [Dotenv-url](https://github.com/motdotla/dotenv "Dotenvurl")
+- [Cors](https://img.shields.io/badge/Cors-20232A?style=for-the-badge&logo-cors&logoColor=026e00 "Cors")
+- [Cors-url](https://www.npmjs.com/package/cors "Corsurl")
+- [AWS-SDK Client Lex Runtime V2](https://img.shields.io/badge/AWSSDK-20232A?style=for-the-badge&logo-awssdk&logoColor=026e00 "AWS-SDK Client Lex Runtime V2")
+- [AWS-SDK Client Lex Runtime V2-url](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lex-runtime-service/ "AWS-SDK Client Lex Runtime V2surl")
+- [Jest](https://img.shields.io/badge/Jest-20232A?style=for-the-badge&logo-jest&logoColor=026e00 "Jest")
+- [Jest-url](https://jestjs.io/docs/getting-started "Jesturl")
 
 ---
 
@@ -94,16 +100,16 @@ _Server Dependencies:_
 
 ### **Features:**
 
-- Integration of an Amazon Lex Chatbot with a React frontend using AWS-SDK and an Express API.
+- Integration of an Amazon Lex Chatbot using AWS-SDK and an Express API.
+- Refactored code.
+- Unit tests using jest.
 
 ---
 
 ### **Future improvements:**
 
-- For v1 development cycle research other security and authentication features eg AWS Cognito.
-- Improve the frontend for demonstration.
-- Refactor the backend and incorporate testing.
-- Research AWS CloudFormation templates and other possible services.
+- Incorporate more unit and end-to-end testing.
+- Create a CI/CD Pipeline.
 
 ---
 
@@ -122,9 +128,6 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ### **Acknowledgments:**
 
-- [AWS CLI](https://aws.amazon.com/cli/ "AWS CLI")
-- [AWS Config](https://docs.aws.amazon.com/sdkref/latest/guide/creds-config-files.html "AWS Config")
-- [AWS Javascript](https://aws.amazon.com/developer/language/javascript/ "Javasript on AWS")
 - [AWS Node.JS](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html "Getting started in Node.JS")
+- [AWS Javascript](https://aws.amazon.com/developer/language/javascript/ "Javasript on AWS")
 - [AWS SDK](https://aws.amazon.com/developer/tools/ "AWS developer tools and SDKs")
-- [AWS Lex](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example.html "Building an Amazon Lex chatbot")
