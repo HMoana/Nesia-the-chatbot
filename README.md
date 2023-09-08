@@ -147,3 +147,6 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 - [AWS CLI](https://aws.amazon.com/cli/ "AWS CLI")
 - [AWS Config](https://docs.aws.amazon.com/sdkref/latest/guide/creds-config-files.html "AWS Config")
 - [AWS Lex](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/lex-bot-example.html "Building an Amazon Lex chatbot")
+
+_Te Reo Māori Advisor_
+- Kahu-Rangi Watene - <kahurangiw@missionreadyhq.com>

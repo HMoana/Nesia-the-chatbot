@@ -128,7 +128,6 @@ _Client Dependencies:_
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-### **Acknowledgments:**
 
-####_Te Reo Māori Advisor_
-- Kahu-Rangi Watene - <kahurangiw@missionreadyhq.com>
+
+
