@@ -21,7 +21,7 @@ We will be utilizing the vast services the AWS have to offer. In particular buil
 - [Dotenv-url](https://github.com/motdotla/dotenv "Dotenvurl")
 - [Cors](https://img.shields.io/badge/Cors-20232A?style=for-the-badge&logo-cors&logoColor=026e00 "Cors")
 - [Cors-url](https://www.npmjs.com/package/cors "Corsurl")
-- [AWS-SDK Client Lex Runtime V2](https://img.shields.io/badge/AWSSDK-20232A?style=for-the-badge&logo-awssdk&logoColor=026e00 "AWS-SDK Client Lex Runtime V2")
+- [AWS-SDK Client Lex Runtime V2](https://img.shields.io/badge/AWS-SDK-20232A?style=for-the-badge&logo-aws-sdk&logoColor=026e00 "AWS-SDK Client Lex Runtime V2")
 - [AWS-SDK Client Lex Runtime V2-url](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/lex-runtime-service/ "AWS-SDK Client Lex Runtime V2surl")
 - [Jest](https://img.shields.io/badge/Jest-20232A?style=for-the-badge&logo-jest&logoColor=026e00 "Jest")
 - [Jest-url](https://jestjs.io/docs/getting-started "Jesturl")
