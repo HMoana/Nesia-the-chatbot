@@ -108,7 +108,7 @@ _Server Dependencies:_
 
 ### **Future improvements:**
 
-- Incorporate more unit and end-to-end testing.
+- Incorporate more unit and end-to-end testing on the server side (backend).
 - Create a CI/CD Pipeline.
 
 ---

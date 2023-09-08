@@ -122,9 +122,9 @@ _Steps:_
 
 ### **Future improvements:**
 
-- Incorporate more unit and end-to-end testing.
+- Incorporate more unit and end-to-end testing on the server side (backend).
 - Create a CI/CD Pipeline.
-- Refactor code to simplify, maintain and debug code. 
+- Refactor code to simplify, maintain and debug code on the client side (frontend).
 
 ---
 

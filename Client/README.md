@@ -111,7 +111,7 @@ _Client Dependencies:_
 
 ### **Future improvements:**
 
-- Refactor code to simplify, maintain and debug code. 
+- Refactor code to simplify, maintain and debug code on the client side (frontend).
 
 ---
 
