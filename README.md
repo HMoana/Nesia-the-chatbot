@@ -12,6 +12,7 @@ We will be utilizing the vast services the AWS have to offer. In particular buil
 
 ### **Built with:**
 
+- [AWS](https://img.shields.io/badge/AWS-20232A?style=for-the-badge&logo-aws&logoColor=026e00 "AWS")
 - [AWS](https://aws.amazon.com/ "AWS")
 
 ---
