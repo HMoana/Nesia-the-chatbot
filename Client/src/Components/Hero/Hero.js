@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../Styles/Hero.module.css";
+import styles from "../../Styles/Hero.module.css";
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       <div className={styles.heroContainer__imageContainer}>
         <img
           className={styles.heroContainer__ideaImage}
-          src={require("../Images/Youth.jpg")}
+          src={require("../../Images/Youth.jpg")}
           alt="idea"
         />
       </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sprite-graffiti');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .container {
   width: 100%;
@@ -112,7 +112,7 @@
   align-items: center;
   padding: 5px;
   background-color: #fd8d14; 
-  font-family: 'Sprite Graffiti', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
   width: 100%;
 }
 

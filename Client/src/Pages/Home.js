@@ -1,13 +1,9 @@
 import React from 'react'
-import Hero from '../Components/Hero';
-import CallUps from '../Components/CallUps';
-import About from '../Components/About';
-import Footer from '../Components/Footer';
-// import ModalComponent from '../Components/ModalComponent';
-import NesiaChatBot from '../Components/NesiaChatBot';
-
-
-
+import Hero from '../Components/Hero/Hero';
+import CallUps from '../Components/CallUps/CallUps';
+import About from '../Components/About/About';
+import Footer from '../Components/Footer/Footer';
+import NesiaChatBot from '../Components/NesiaChatBot/NesiaChatBot';
 
 const Home = () => {
   return (
@@ -16,7 +12,6 @@ const Home = () => {
       <CallUps />
       <About />
       <Footer />
-      {/* <ModalComponent /> */}
       <NesiaChatBot />
     </div>
   )

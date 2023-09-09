@@ -106,12 +106,13 @@ _Client Dependencies:_
 - Integration of an Amazon Lex Chatbot with a React frontend using AWS-SDK and an Express API.
 - Fully customized chatbot user interface.
 - Mobile responsive landing page and user interface.
+- Refactored code to simplify and maintain code for next development cycle.
 
 ---
 
 ### **Future improvements:**
 
-- Refactor code to simplify, maintain and debug code on the client side (frontend).
+- Continue to improve the code refactoring and code smells.
 
 ---
 

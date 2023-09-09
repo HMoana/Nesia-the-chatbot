@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sprite-graffiti');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .container {
   display: flex;
@@ -28,7 +28,7 @@
 .callUps__content--title {
   font-size: 56px;
   font-weight: bold;
-  font-family: 'Sprite Graffiti', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
   margin-bottom: 30px;
   color: #000000b3;
   animation-name: slideInFromLeft;

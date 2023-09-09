@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/sprite-graffiti");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .modalComponent__modalBody {
   border-radius: 15px;
@@ -29,7 +29,7 @@
 
 .modalComponent__modalTitle {
   font-size: 32px;
-  font-family: 'Sprite Graffiti', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
   color: white;
   margin: 0;
 }
